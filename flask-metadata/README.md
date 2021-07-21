@@ -1,8 +1,7 @@
 # flask-metadata
 
-Flask-metadata project implements the back-end of GenoSurf http://gmql.eu/genosurf/,
-an integrated metadata-based semantic search server for genomic datasets. 
+Flask-metadata project implements the back-end of EpiSurf http://gmql.eu/episurf/ and of EpiSurf-GISAID http://gmql.eu/episurf_gisaid/.
 
-The front-end packages are available in the companion project [vue-metadata](https://github.com/DEIB-GECO/vue-metadata).
+The front-end packages are available in the companion folder [vue-metadata](https://github.com/DEIB-GECO/EpiSurf/edit/main/vue-metadata/).
 
-Please visit the [WIKI page](https://github.com/DEIB-GECO/flask-metadata/wiki) for all details on GenoSurf! 
+Please visit the [WIKI page](https://github.com/DEIB-GECO/EpiSurf/wiki) for all details on EpiSurf! 
