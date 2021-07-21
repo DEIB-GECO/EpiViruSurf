@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-33687213-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        // Enable navigation prompt
+        window.onbeforeunload = function () {
+            return true;
+        };
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'UA-33687213-3');
+    </script>
+
+
+    <style type="text/css" media="screen">
+        .hide-ES6{
+            display: none;
+
+          padding: 20px;
+          background-color: #f44336; /* Red */
+          color: white;
+          margin-bottom: 15px;
+          text-align:center;
+
+        }
+
+        /* The close button */
+    .closebtn-ES6 {
+      margin-left: 15px;
+      color: white;
+      font-weight: bold;
+      float: right;
+      font-size: 22px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    /* When moving the mouse over the close button */
+    .closebtn-ES6:hover {
+      color: black;
+    }
+
+
+
+    </style>
+
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>ViruSurf</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but vue-metadata doesn't work properly without JavaScript enabled. Please enable it to
+        continue.</strong>
+</noscript>
+<div id="noES6" class="hide-ES6">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>VIRUSURF MAY NOT FUNCTION CORRECTLY IN THIS BROWSER.
+    <br>
+        IF YOU EXPERIENCE ISSUES, PLEASE TRY USING LATEST VERSION OF GOOGLE CHROME OR MOZILLA FIREFOX.</h2>
+    <span class="closebtn-ES6" onclick="this.parentElement.style.display='none';">&times;</span>
+
+
+</div>
+
+<div id="app"></div>
+<script>
+        var supportsVue = function() {
+          try {
+            new Function("(a = 0) => a");
+            return true;
+          }
+          catch (err) {
+            return false;
+          }
+        }();
+        console.log("supportsES6" + supportsVue)
+
+        var ua = window.navigator.userAgent;
+
+        if(ua.indexOf("Edge") > -1)
+            supportsVue = false;
+
+        if(!supportsVue)
+            document.getElementById("noES6").style.display = "block";
+</script>
+<!-- built files will be auto injected -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</body>
+</html>

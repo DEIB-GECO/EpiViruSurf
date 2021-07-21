@@ -1,0 +1,673 @@
+[
+  {
+    "text": "Zhang et al. (A) D614G mutation in SARS-CoV-2 spike protein before March (included)",
+    "value": {
+      "query": {
+        "gcm": {
+          "collection_date": {
+            "min_val": null,
+            "max_val": "2020-03-31",
+            "is_null": false
+          },
+          "taxon_name": [
+            "severe acute respiratory syndrome coronavirus 2"
+          ],
+          "is_complete": [
+            true
+          ]
+        },
+        "type": "original",
+        "kv": {
+          "aa_0": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "d"
+                ],
+                "sequence_aa_alternative": [
+                  "g"
+                ],
+                "start_aa_original": {
+                  "min_val": 614,
+                  "max_val": 614
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "Zhang et al. (B) D614G mutation in SARS-CoV-2 spike protein after March",
+    "value": {
+      "query": {
+        "gcm": {
+          "collection_date": {
+            "min_val": "2020-04-01",
+            "max_val": null,
+            "is_null": false
+          },
+          "taxon_name": [
+            "severe acute respiratory syndrome coronavirus 2"
+          ],
+          "is_complete": [
+            true
+          ]
+        },
+        "type": "original",
+        "kv": {
+          "aa_0": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "d"
+                ],
+                "sequence_aa_alternative": [
+                  "g"
+                ],
+                "start_aa_original": {
+                  "min_val": 614,
+                  "max_val": 614
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "Chaw et al. G251V in SARS-CoV2 ORF3 gene, linked to Wuhan lockdown",
+    "value": {
+      "query": {
+        "gcm": {
+          "collection_date": {
+            "min_val": null,
+            "max_val": "2020-01-21",
+            "is_null": false
+          },
+          "taxon_name": [
+            "severe acute respiratory syndrome coronavirus 2"
+          ],
+          "is_complete": [
+            true
+          ]
+        },
+        "type": "original",
+        "kv": {
+          "aa_0": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "ns3 (orf3a protein)"
+                ],
+                "sequence_aa_original": [
+                  "g"
+                ],
+                "sequence_aa_alternative": [
+                  "v"
+                ],
+                "start_aa_original": {
+                  "min_val": 251,
+                  "max_val": 251
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "Sardar et al. NSP6_L37F - Lower protein stability",
+    "value": {
+      "query": {
+        "gcm": {
+          "taxon_name": [
+            "severe acute respiratory syndrome coronavirus 2"
+          ],
+          "is_complete": [
+            true
+          ]
+        },
+        "type": "original",
+        "kv": {
+          "aa_0": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "nsp6"
+                ],
+                "sequence_aa_original": [
+                  "l"
+                ],
+                "sequence_aa_alternative": [
+                  "f"
+                ],
+                "start_aa_original": {
+                  "min_val": 37,
+                  "max_val": 37
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "Siqi et al. N_R203K/N_G204R - higher viral transmission",
+    "value": {
+      "query": {
+        "gcm": {
+          "taxon_name": [
+            "severe acute respiratory syndrome coronavirus 2"
+          ],
+          "is_complete": [
+            true
+          ]
+        },
+        "type": "original",
+        "kv": {
+          "aa_0": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "n (nucleocapsid phosphoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "r"
+                ],
+                "sequence_aa_alternative": [
+                  "k"
+                ],
+                "start_aa_original": {
+                  "min_val": 203,
+                  "max_val": 203
+                }
+              }
+            ]
+          },
+          "aa_1": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "n (nucleocapsid phosphoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "g"
+                ],
+                "sequence_aa_alternative": [
+                  "r"
+                ],
+                "start_aa_original": {
+                  "min_val": 204,
+                  "max_val": 204
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "Toyoshima et al. NSP12_P323L - Higher fatality rate",
+    "value": {
+      "query": {
+        "gcm": {
+          "taxon_name": [
+            "severe acute respiratory syndrome coronavirus 2"
+          ],
+          "is_complete": [
+            true
+          ]
+        },
+        "type": "original",
+        "kv": {
+          "aa_0": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "nsp12 (rna-dependent rna polymerase)"
+                ],
+                "sequence_aa_original": [
+                  "p"
+                ],
+                "sequence_aa_alternative": [
+                  "l"
+                ],
+                "start_aa_original": {
+                  "min_val": 323,
+                  "max_val": 323
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "Oulas et al. NS3_Q57H - Higher viral transmission",
+    "value": {
+      "query": {
+        "gcm": {
+          "taxon_name": [
+            "severe acute respiratory syndrome coronavirus 2"
+          ],
+          "is_complete": [
+            true
+          ]
+        },
+        "type": "original",
+        "kv": {
+          "aa_0": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "ns3 (orf3a protein)"
+                ],
+                "variant_aa_type": [
+                  "sub"
+                ],
+                "sequence_aa_original": [
+                  "q"
+                ],
+                "sequence_aa_alternative": [
+                  "h"
+                ],
+                "start_aa_original": {
+                  "min_val": 57,
+                  "max_val": 57
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "Spike mutations from new UK strain",
+    "value": {
+      "query": {
+        "gcm": {
+          "is_complete": [
+            true
+          ],
+          "taxon_name": [
+            "severe acute respiratory syndrome coronavirus 2"
+          ]
+        },
+        "type": "original",
+        "kv": {
+          "aa_0": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "n"
+                ],
+                "sequence_aa_alternative": [
+                  "y"
+                ],
+                "start_aa_original": {
+                  "min_val": 501,
+                  "max_val": 501
+                }
+              }
+            ]
+          },
+          "aa_1": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "variant_aa_type": [
+                  "del"
+                ],
+                "sequence_aa_original": [
+                  "h"
+                ],
+                "start_aa_original": {
+                  "min_val": 69,
+                  "max_val": 69
+                }
+              }
+            ]
+          },
+          "aa_2": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "variant_aa_type": [
+                  "del"
+                ],
+                "sequence_aa_original": [
+                  "v"
+                ],
+                "start_aa_original": {
+                  "min_val": 70,
+                  "max_val": 70
+                }
+              }
+            ]
+          },
+          "aa_3": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "variant_aa_type": [
+                  "del"
+                ],
+                "sequence_aa_original": [
+                  "y"
+                ],
+                "start_aa_original": {
+                  "min_val": 144,
+                  "max_val": 144
+                }
+              }
+            ]
+          },
+          "aa_4": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "a"
+                ],
+                "sequence_aa_alternative": [
+                  "d"
+                ],
+                "start_aa_original": {
+                  "min_val": 570,
+                  "max_val": 570
+                }
+              }
+            ]
+          },
+          "aa_5": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "p"
+                ],
+                "sequence_aa_alternative": [
+                  "h"
+                ],
+                "start_aa_original": {
+                  "min_val": 681,
+                  "max_val": 681
+                }
+              }
+            ]
+          },
+          "aa_6": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "t"
+                ],
+                "sequence_aa_alternative": [
+                  "i"
+                ],
+                "start_aa_original": {
+                  "min_val": 716,
+                  "max_val": 716
+                }
+              }
+            ]
+          },
+          "aa_7": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "s"
+                ],
+                "sequence_aa_alternative": [
+                  "a"
+                ],
+                "start_aa_original": {
+                  "min_val": 982,
+                  "max_val": 982
+                }
+              }
+            ]
+          },
+          "aa_8": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "d"
+                ],
+                "sequence_aa_alternative": [
+                  "h"
+                ],
+                "start_aa_original": {
+                  "min_val": 1118,
+                  "max_val": 1118
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "A222V Spike mutation from 20A.EU1 variant (Spain)",
+    "value": {
+      "query": {
+        "gcm": {
+          "is_complete": [
+            true
+          ],
+          "taxon_name": [
+            "severe acute respiratory syndrome coronavirus 2"
+          ]
+        },
+        "type": "original",
+        "kv": {
+          "aa_0": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "a"
+                ],
+                "sequence_aa_alternative": [
+                  "v"
+                ],
+                "start_aa_original": {
+                  "min_val": 222,
+                  "max_val": 222
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "ORF8 382-nucleotide deletion",
+    "value": {
+      "query": {
+        "gcm": {
+          "taxon_name": [
+            "severe acute respiratory syndrome coronavirus 2"
+          ]
+        },
+        "type": "original",
+        "kv": {
+          "nuc_0": {
+            "type_query": "nuc",
+            "exact": false,
+            "query": [
+              {
+                "n_gene_name": [
+                  "orf8"
+                ],
+                "variant_type": [
+                  "del"
+                ],
+                "variant_length": {
+                  "min_val": 382
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+   {
+    "text": "Spike mutations characteristic of South African strain",
+    "value": {
+      "query": {
+        "gcm": {
+          "is_complete": [
+            true
+          ],
+          "taxon_name": [
+            "severe acute respiratory syndrome coronavirus 2"
+          ]
+        },
+        "type": "original",
+        "kv": {
+          "aa_0": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "n"
+                ],
+                "sequence_aa_alternative": [
+                  "y"
+                ],
+                "start_aa_original": {
+                  "min_val": 501,
+                  "max_val": 501
+                }
+              }
+            ]
+          },
+          "aa_1": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "k"
+                ],
+                "sequence_aa_alternative": [
+                  "n","t"
+                ],
+                "start_aa_original": {
+                  "min_val": 417,
+                  "max_val": 417
+                }
+              }
+            ]
+          },
+          "aa_2": {
+            "type_query": "aa",
+            "exact": false,
+            "query": [
+              {
+                "product": [
+                  "spike (surface glycoprotein)"
+                ],
+                "sequence_aa_original": [
+                  "e"
+                ],
+                "sequence_aa_alternative": [
+                  "k"
+                ],
+                "start_aa_original": {
+                  "min_val": 484,
+                  "max_val": 484
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+]
