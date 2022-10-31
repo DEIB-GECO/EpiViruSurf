@@ -1,6 +1,6 @@
-# EpiSurf
+# EpiViruSurf
 
-Welcome to the repository of EpiSurf code!
+Welcome to the repository of EpiViruSurf code!
 You find three useful things here:
 - our [WIKI](https://github.com/DEIB-GECO/EpiSurf/wiki/), complete of explanation on our data schema, data content, and example of use of the interface
 - the code of our back-end in [flask-metadata](https://github.com/DEIB-GECO/EpiSurf/tree/main/flask-metadata)
